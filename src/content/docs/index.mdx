@@ -1,40 +1,71 @@
 ---
 title: Nakurity Docs
-description: Documentation for all my projects!
-template: splash # Remove or comment out this line to display the site sidebar on this page.
+description: Comprehensive documentation for all Nakurity projects and tools
+template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: Your central hub for project documentation, guides, and resources
   image:
     file: ../../assets/Evilyn.png
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Get Started
+      link: /guides/getting-started/
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
+    - text: Browse Projects
+      link: /projects/
+      icon: rocket
       variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## Welcome to Nakurity Docs
+
+This documentation site serves as a comprehensive resource for all my projects. Whether you're looking for API references, integration guides, or troubleshooting tips, you'll find everything you need here.
+
+## Featured Projects
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="Project Alpha" icon="rocket">
+		A powerful tool for developers. Explore the API documentation and see how to integrate it into your workflow.
 	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
+	<Card title="Project Beta" icon="puzzle">
+		Feature-rich library with extensive customization options. Check out the component gallery and examples.
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="Project Gamma" icon="star">
+		Lightning-fast solution for modern web applications. View performance benchmarks and best practices.
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="Community Tools" icon="heart">
+		Open-source utilities and helpers built by the community. Contribute or browse the collection.
 	</Card>
 </CardGrid>
+
+## Quick Links
+
+<CardGrid>
+	<Card title="API Reference" icon="document">
+		Detailed API documentation with code examples and type definitions for all projects.
+	</Card>
+	<Card title="Tutorials" icon="open-book">
+		Step-by-step guides to help you get up and running quickly with practical examples.
+	</Card>
+	<Card title="Configuration" icon="setting">
+		Learn how to configure and customize projects to fit your specific needs.
+	</Card>
+	<Card title="Contributing" icon="github">
+		Want to contribute? Check out our contribution guidelines and community standards.
+	</Card>
+</CardGrid>
+
+## Recent Updates
+
+Stay up to date with the latest features, improvements, and bug fixes across all projects. Visit the [changelog](/changelog/) for detailed release notes.
+
+## Need Help?
+
+- 💬 Join our [Discord community](https://discord.gg/example) for support
+- 🐛 Report issues on [GitHub](https://github.com/nakurity)
+- 📧 Reach out via email for enterprise inquiries
+
+---
+
+**Ready to dive in?** Start with the [Getting Started guide](/guides/getting-started/) or explore the project-specific documentation from the sidebar.
