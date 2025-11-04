@@ -21,6 +21,9 @@ export default defineConfig({
 					autogenerate: { directory: 'reference' },
 				},
 			],
+			logo: {
+                 src: './src/assets/my-logo.svg',
+            },
 		}),
 	],
 });
