@@ -1,11 +1,19 @@
 ---
 title: Neuro Desktop Documentation Index
 description: Comprehensive index for ND docs.
+template: splash
+hero:
+  tagline: Your central hub for project documentation, guides, and resources
+  image:
+    file: ../../assets/Evilyn.png
+  actions:
+    - text: Get Started
+      link: /guides/getting-started/
+      icon: right-arrow
+    - text: Browse Projects
+      link: /projects/
+      icon: rocket
+      variant: minimal
 ---
 
-Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.
-Writing a good guide requires thinking about what your users are trying to do.
-
-## Further reading
-
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
+No indexed docs atm.
